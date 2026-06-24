@@ -1,10 +1,9 @@
 "use client";
 import { useState } from "react";
-import logo from '@/assets/logo.png'
+import logo from "@/assets/logo.png";
 import Image from "next/image";
 
 export default function Navbar() {
-
   const [isOpen, setIsOpen] = useState(false);
 
   const navLinks = [
@@ -38,9 +37,12 @@ export default function Navbar() {
               </a>
             ))}
 
-            <button className="px-6 lg:px-10 py-3 lg:py-2 border border-white/10 bg-white/10 text-white text-base lg:text-lg hover:border-red-500 transition">
+            <a
+              href="#contact"
+              className="px-6 lg:px-10 py-3 lg:py-2 border border-white/10 bg-white/10 text-white text-base lg:text-lg hover:border-red-500 transition"
+            >
               Contact Us
-            </button>
+            </a>
           </nav>
 
           {/* Mobile Hamburger */}
@@ -84,9 +86,13 @@ export default function Navbar() {
               </a>
             ))}
 
-            <button className="w-full border border-white/10 py-3 text-white">
+            <a
+              href="#contact"
+              onClick={() => setIsOpen(false)}
+              className="w-full border border-white/10 py-3 text-white text-center"
+            >
               Contact Us
-            </button>
+            </a>
           </nav>
         </div>
       </div>
