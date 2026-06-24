@@ -1,9 +1,9 @@
 import Image from "next/image";
 import car from '@/assets/carSt.png'
 
-export default function CarHero() {
+export default function About() {
   return (
-    <div className="relative w-full bg-black overflow-hidden px-6 sm:px-10 md:pl-20 py-12 sm:py-16 md:py-20">
+    <div className="relative w-full bg-black overflow-hidden px-6 sm:px-10 md:pl-20 py-12 sm:py-16 md:py-20" id="about">
 
       <h1 className="font-orbitron text-[32px] sm:text-[42px] md:text-[52px] font-light text-red-600 leading-tight mb-2 tracking-tight">
         Love your ride?

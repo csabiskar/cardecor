@@ -20,7 +20,7 @@ const blogs = [
 
 export default function BlogsSection() {
   return (
-    <div className="bg-black w-full py-16 px-6 md:px-10 lg:px-16">
+    <div className="bg-black w-full py-16 px-6 md:px-10 lg:px-16" id="blogs">
       <h2 className="font-orbitron text-white text-3xl sm:text-4xl md:text[40px] text-center mb-12 font-light">
         Blogs
       </h2>

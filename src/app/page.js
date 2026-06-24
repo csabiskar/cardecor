@@ -1,7 +1,7 @@
 import Banner from "@/components/Banner";
 import BlogsSection from "@/components/BlogsSection";
 import BrandBanner from "@/components/BrandBanner";
-import CarHero from "@/components/CarHero";
+import About from "@/components/About";
 import CategorySection from "@/components/CategorySection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
@@ -17,7 +17,7 @@ export default function Home() {
       <Navbar />
       <HeroSection/>
       <Banner/>
-      <CarHero/>
+      <About/>
       <CategorySection/>
       <BrandBanner/>
       <WhyUsSection/>

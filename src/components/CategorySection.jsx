@@ -37,7 +37,7 @@ export default function CategorySection() {
   const [hoveredIndex, setHoveredIndex] = useState(null);
 
   return (
-    <div className="bg-black w-full">
+    <div className="bg-black w-full" id="services">
 
       {/* Heading */}
       <div className="text-center py-10 sm:py-12 md:py-16 px-4">
